@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "Color.h"
-// #include "Tests.c"
+#include "Test.c"
 
 const char* MajorColorNames[] = { "White", "Red", "Black", "Yellow", "Violet" };
 const char* MinorColorNames[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
