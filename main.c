@@ -17,7 +17,7 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
     colorPair.minorColor =
         (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
     return colorPair;
-}
+} 
 
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
